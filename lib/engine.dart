@@ -51,8 +51,8 @@ String localName = "";
 int devCards = 25;
 
 void startService() async {
-  // run windows console command: ./chromedrover.exe --port=4444 --url-base=wd/hub
-  process = await Process.start('C:\\Users\\Konstanius\\AndroidStudioProjects\\catan_iq\\chromedriver.exe', ['--port=4444', '--url-base=wd/hub']);
+  // run windows console command: ./chromedriver.exe --port=4444 --url-base=wd/hub
+  process = await Process.start('.\\chromedriver.exe', ['--port=4444', '--url-base=wd/hub']);
 
   // start the webdriver
   WebDriver driver = createDriver(desired: Capabilities.chrome);
