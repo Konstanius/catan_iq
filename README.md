@@ -11,6 +11,7 @@ A client for https://colonist.io to track your opponents resource cards / availa
 ## Known issues
 
 - [ ] Players leaving during the lobby phase will still remain in the game
+- [ ] Cannot join a game without a lobby phase (players cannot be determined)
 - [ ] Win screens are untested
 - [ ] Colors of players need to be implemented
 - [ ] Icons of materials and buildings need to be implemented
